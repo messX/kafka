@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 public class Listner {
     @KafkaListener(topics = "Kafka_Example", groupId = "test", containerFactory = "userKafkaListenerContainerFactory")
     public void consume(User user){
+        log.debug("recieved log message");
         log.info(String.format("User : %s", user));
     }
 }

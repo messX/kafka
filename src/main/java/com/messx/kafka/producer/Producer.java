@@ -21,8 +21,13 @@ public class Producer {
    @PostMapping("/publish")
    public String publish(@RequestBody UserRequest postDto){
       User user=userService.create(postDto);
+      log.debug("Hello, I'm DEBUG message.");
+      log.info("Hello, I'm INFO message.");
+      log.warn("Hello, I'm WARN message.");
+      log.error("Hello, I'm ERROR message.");
       log.info("user:"+user);
       kafkaTemplate.send(topic, user);
+      log.debug("sent message to queue");
       return "created";
    }
 }

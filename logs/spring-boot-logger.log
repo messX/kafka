@@ -1,0 +1,24 @@
+2020-08-08 20:35:41,282 INFO org.springframework.boot.StartupInfoLogger [main] Starting KafkaApplication on neeleshs-MacBook-Pro.local with PID 50938 (/Users/neeleshlohani/Projects/java/kafka/target/classes started by neeleshlohani in /Users/neeleshlohani/Projects/java/kafka)
+2020-08-08 20:35:41,286 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2020-08-08 20:35:41,287 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-08 20:35:44,055 INFO org.springframework.boot.StartupInfoLogger [main] Started KafkaApplication in 8.839 seconds (JVM running for 9.848)
+2020-08-08 20:35:48,968 DEBUG com.messx.kafka.producer.Producer [http-nio-8080-exec-1] Hello, I'm DEBUG message.
+2020-08-08 20:35:48,986 INFO com.messx.kafka.producer.Producer [http-nio-8080-exec-1] Hello, I'm INFO message.
+2020-08-08 20:35:48,987 WARN com.messx.kafka.producer.Producer [http-nio-8080-exec-1] Hello, I'm WARN message.
+2020-08-08 20:35:48,987 ERROR com.messx.kafka.producer.Producer [http-nio-8080-exec-1] Hello, I'm ERROR message.
+2020-08-08 20:35:48,988 INFO com.messx.kafka.producer.Producer [http-nio-8080-exec-1] user:I am test112
+2020-08-08 20:35:49,077 DEBUG com.messx.kafka.producer.Producer [http-nio-8080-exec-1] sent message to queue
+2020-08-08 20:35:49,119 DEBUG com.messx.kafka.listner.Listner [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] recieved log message
+2020-08-08 20:35:49,120 INFO com.messx.kafka.listner.Listner [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] User : I am test112
+2020-08-08 20:37:26,386 INFO org.springframework.boot.StartupInfoLogger [main] Starting KafkaApplication on neeleshs-MacBook-Pro.local with PID 50972 (/Users/neeleshlohani/Projects/java/kafka/target/classes started by neeleshlohani in /Users/neeleshlohani/Projects/java/kafka)
+2020-08-08 20:37:26,390 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2020-08-08 20:37:26,391 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-08 20:37:29,068 INFO org.springframework.boot.StartupInfoLogger [main] Started KafkaApplication in 8.829 seconds (JVM running for 10.633)
+2020-08-08 20:37:29,314 DEBUG com.messx.kafka.producer.Producer [http-nio-8080-exec-1] Hello, I'm DEBUG message.
+2020-08-08 20:37:29,315 INFO com.messx.kafka.producer.Producer [http-nio-8080-exec-1] Hello, I'm INFO message.
+2020-08-08 20:37:29,315 WARN com.messx.kafka.producer.Producer [http-nio-8080-exec-1] Hello, I'm WARN message.
+2020-08-08 20:37:29,316 ERROR com.messx.kafka.producer.Producer [http-nio-8080-exec-1] Hello, I'm ERROR message.
+2020-08-08 20:37:29,316 INFO com.messx.kafka.producer.Producer [http-nio-8080-exec-1] user:I am test112
+2020-08-08 20:37:29,538 DEBUG com.messx.kafka.producer.Producer [http-nio-8080-exec-1] sent message to queue
+2020-08-08 20:37:29,719 DEBUG com.messx.kafka.listner.Listner [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] recieved log message
+2020-08-08 20:37:29,720 INFO com.messx.kafka.listner.Listner [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] User : I am test112
